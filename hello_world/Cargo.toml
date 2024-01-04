@@ -1,0 +1,14 @@
+[package]
+name = "hello_world"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hello_world_lib = {path = "hello_world_lib"}
+
+rect_shape = { path = "../rect_shape" }
+rect_shape_derive = { path = "../rect_shape/rect_shape_derive" }
+my_attribute_proc_macros = {path = "../my_attribute_proc_macros"}
+my_functional_proc_macros = {path = "../my_functional_proc_macros"}
